@@ -3,6 +3,57 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [2.9.1](https://github.com/EyeTrackVR/OpenIris/compare/v2.9.0...v2.9.1) (2025-01-30)
+
+
+### 🐛 Bug Fixes
+
+* Add babble firmware to CI matrix ([#86](https://github.com/EyeTrackVR/OpenIris/issues/86)) ([28a053d](https://github.com/EyeTrackVR/OpenIris/commit/28a053d65323a4f48ad8de4992fe496ab3e63225))
+
+## [2.9.0](https://github.com/EyeTrackVR/OpenIris/compare/v2.8.0...v2.9.0) (2025-01-28)
+
+
+### 🍕 Features
+
+* Fix AsyncWebServer dependency ([#85](https://github.com/EyeTrackVR/OpenIris/issues/85)) ([42c3311](https://github.com/EyeTrackVR/OpenIris/commit/42c33112972414cb5121b1052184fd0443de3164))
+
+## [2.8.0](https://github.com/EyeTrackVR/OpenIris/compare/v2.7.0...v2.8.0) (2025-01-15)
+
+
+### 🍕 Features
+
+* Fix typo in SerialManager ([#84](https://github.com/EyeTrackVR/OpenIris/issues/84)) ([f460867](https://github.com/EyeTrackVR/OpenIris/commit/f4608674978edf5728e495824ed615d9d45f85fd))
+
+## [2.7.0](https://github.com/EyeTrackVR/OpenIris/compare/v2.6.0...v2.7.0) (2025-01-12)
+
+
+### 🍕 Features
+
+* Release 2.7.0 ([#83](https://github.com/EyeTrackVR/OpenIris/issues/83)) ([c7aef84](https://github.com/EyeTrackVR/OpenIris/commit/c7aef8457eb68fef6713daaf81c6eb23491d9ec7))
+
+## [2.7.0-beta.2](https://github.com/EyeTrackVR/OpenIris/compare/v2.7.0-beta.1...v2.7.0-beta.2) (2025-01-12)
+
+
+### 🍕 Features
+
+* Add camera resolution configuration support ([#79](https://github.com/EyeTrackVR/OpenIris/issues/79)) ([5c76e01](https://github.com/EyeTrackVR/OpenIris/commit/5c76e01c5e466c8cc7ef4cd43e78a763af00c06e))
+
+## [2.7.0-beta.1](https://github.com/EyeTrackVR/OpenIris/compare/v2.6.0...v2.7.0-beta.1) (2025-01-11)
+
+
+### 🍕 Features
+
+* Add support for ov5640 cameras ([14d2cb0](https://github.com/EyeTrackVR/OpenIris/commit/14d2cb0858cd65452f2ce1cee9a3a1f68d8f7f51))
+* Fix ov5640 support implementation after beta cleanup ([4894c22](https://github.com/EyeTrackVR/OpenIris/commit/4894c2205864d5a7d52e37c81b14ff7dc46517d4))
+* fix usb streaming on wroom boards, add support for babble custom board  ([049b160](https://github.com/EyeTrackVR/OpenIris/commit/049b16078ec5c07042652f2de3545ea6b69de6a9))
+* Move logging in serial streaming so that we at least attempt to get new frame ([53a3d4b](https://github.com/EyeTrackVR/OpenIris/commit/53a3d4bcd603e2fd07546621628e69de88e4139a))
+* Refactor commands and serial manager to support updated commands payload ([811a9f8](https://github.com/EyeTrackVR/OpenIris/commit/811a9f898a3f1bdb1e20ffd6f0d6e77a4533f52c))
+
+
+### 🐛 Bug Fixes
+
+* serial output for esp32cams and other boards not supporting higher frequency baud rate ([01e5e28](https://github.com/EyeTrackVR/OpenIris/commit/01e5e280ad26d2709231fe6aa2a96d1991cbf360))
+
 ## [2.6.0](https://github.com/EyeTrackVR/OpenIris/compare/v2.5.0...v2.6.0) (2024-07-14)
 
 
